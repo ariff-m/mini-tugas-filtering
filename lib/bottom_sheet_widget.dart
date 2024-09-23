@@ -19,7 +19,6 @@ class BottomSheetWidget extends StatelessWidget {
               style: TextStyle(fontSize: 18),
             ),
           ),
-         
           const Padding(
             padding: EdgeInsets.all(8.0),
             child: Text('Rentang Harga'),
@@ -86,7 +85,7 @@ class BottomSheetWidget extends StatelessWidget {
               ),
             ],
           ),
-           DropdownButton<String>(
+          DropdownButton<String>(
             hint: const Text('Pilih Kategori'),
             items: [
               'Kebersihan',
