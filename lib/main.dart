@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:mini_tugas_filtering/home_page.dart';
 import 'package:mini_tugas_filtering/home_view_model.dart';
-import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());

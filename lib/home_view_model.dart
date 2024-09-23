@@ -3,10 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mini_tugas_filtering/product_model.dart';
 
-
 class HomeViewModel extends ChangeNotifier {
   List<ProductsModel> _products = [];
-  List<ProductsModel> get products => _products;
+  List<ProductsModel> _filteredProducts = [];
+
+  double minPrice = 0;
+  double maxPrice = double.infinity;
+  double minStock = 0;
+  double maxStock = double.infinity;
+
+  List<ProductsModel> get filteredProducts => _filteredProducts;
 
   HomeViewModel() {
     _loadProducts();
@@ -16,6 +22,50 @@ class HomeViewModel extends ChangeNotifier {
     final String response = await rootBundle.loadString('assets/products.json');
     final List<dynamic> data = json.decode(response);
     _products = data.map((json) => ProductsModel.fromJson(json)).toList();
-    notifyListeners();   
+    _filteredProducts = List.from(_products);
+    notifyListeners();
+  }
+
+  void setMinPrice(double value) {
+    minPrice = value;
+  }
+
+  void setMaxPrice(double value) {
+    maxPrice = value;
+  }
+
+  void setMinStock(double value) {
+    minStock = value;
+  }
+
+  void setMaxStock(double value) {
+    maxStock = value;
+  }
+
+  void applyFilters() {
+    _filteredProducts = _products.where((product) {
+      final isPriceInRange =
+          product.price >= minPrice && product.price <= maxPrice;
+      final isStockInRange =
+          product.stock >= minStock && product.stock <= maxStock;
+
+      return isPriceInRange && isStockInRange;
+    }).toList();
+
+    notifyListeners();
+  }
+
+  void filterByCategory(String category) {
+    _filteredProducts =
+        _products.where((product) => product.category == category).toList();
+    notifyListeners();
+  }
+
+  void resetFilters() {
+    minPrice = 0;
+    maxPrice = double.infinity;
+    minStock = 0;
+    maxStock = double.infinity;
+    notifyListeners();
   }
 }
