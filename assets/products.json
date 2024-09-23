@@ -1,0 +1,326 @@
+[
+    {
+        "name": "Sabun Cuci Ramah Lingkungan",
+        "price": 15000,
+        "stock": 120,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Sikat Gigi Bambu",
+        "price": 25000,
+        "stock": 200,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Botol Minum Stainless Steel",
+        "price": 75000,
+        "stock": 150,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Kantong Belanja Ramah Lingkungan",
+        "price": 30000,
+        "stock": 100,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Sampah Organik Komposter",
+        "price": 50000,
+        "stock": 80,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Shampo Padat",
+        "price": 60000,
+        "stock": 70,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Pelindung Lingkungan 3D",
+        "price": 90000,
+        "stock": 50,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Mangkuk Fiber Tanaman",
+        "price": 40000,
+        "stock": 90,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Pensil Bambu",
+        "price": 15000,
+        "stock": 250,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Bamboo Straw",
+        "price": 20000,
+        "stock": 300,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Hand Sanitizer Natural",
+        "price": 35000,
+        "stock": 60,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Detergen Organik",
+        "price": 45000,
+        "stock": 110,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Ramah Lingkungan Diaper",
+        "price": 90000,
+        "stock": 40,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Kain Lap Serbaguna",
+        "price": 25000,
+        "stock": 150,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Pembungkus Makanan Kain",
+        "price": 30000,
+        "stock": 200,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Kantong Sampah Biodegradable",
+        "price": 22000,
+        "stock": 130,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Minyak Esensial Organik",
+        "price": 50000,
+        "stock": 85,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Sabun Mandi Herbal",
+        "price": 30000,
+        "stock": 95,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Sapu Bambu",
+        "price": 40000,
+        "stock": 75,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Kain Pembersih Reusable",
+        "price": 15000,
+        "stock": 200,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Minuman Herbal Organik",
+        "price": 30000,
+        "stock": 60,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Buku Catatan Daur Ulang",
+        "price": 20000,
+        "stock": 150,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Lampu Tenaga Surya",
+        "price": 100000,
+        "stock": 50,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Cangkir Keramik Ramah Lingkungan",
+        "price": 45000,
+        "stock": 100,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Perawatan Kulit Organik",
+        "price": 70000,
+        "stock": 30,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Pewangi Ruangan Alami",
+        "price": 30000,
+        "stock": 40,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Pengganti Pembungkus Makanan",
+        "price": 25000,
+        "stock": 120,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Kantong Makanan Kain",
+        "price": 20000,
+        "stock": 200,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Alat Kebersihan Bambu",
+        "price": 35000,
+        "stock": 110,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Teh Herbal",
+        "price": 25000,
+        "stock": 150,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Kusyen Daur Ulang",
+        "price": 60000,
+        "stock": 80,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Aksesori Daur Ulang",
+        "price": 45000,
+        "stock": 90,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Susu Kedelai Organik",
+        "price": 30000,
+        "stock": 100,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Kain Tangan Ramah Lingkungan",
+        "price": 15000,
+        "stock": 220,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Sabun Cuci Piring Herbal",
+        "price": 30000,
+        "stock": 110,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Pasta Gigi Alami",
+        "price": 20000,
+        "stock": 150,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Senyawa Pembersih Ramah Lingkungan",
+        "price": 40000,
+        "stock": 90,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Pembersih Lantai Biodegradable",
+        "price": 60000,
+        "stock": 70,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Makanan Kucing Organik",
+        "price": 80000,
+        "stock": 50,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Detektor Asap Alami",
+        "price": 120000,
+        "stock": 20,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Mug Daur Ulang",
+        "price": 30000,
+        "stock": 100,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Krim Pelembap Alami",
+        "price": 50000,
+        "stock": 60,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Kantong Snack Ramah Lingkungan",
+        "price": 15000,
+        "stock": 130,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Kilat Bunga Daur Ulang",
+        "price": 60000,
+        "stock": 40,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Batu Sabun Alami",
+        "price": 35000,
+        "stock": 75,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Serbet Daur Ulang",
+        "price": 20000,
+        "stock": 180,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Gantungan Kunci Ramah Lingkungan",
+        "price": 15000,
+        "stock": 200,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Brosur Informasi Lingkungan",
+        "price": 10000,
+        "stock": 300,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Kantong Sampah Kompos",
+        "price": 22000,
+        "stock": 150,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Paket Perawatan Rambut Alami",
+        "price": 40000,
+        "stock": 80,
+        "category": "Kesehatan"
+    },
+    {
+        "name": "Peralatan Daur Ulang",
+        "price": 30000,
+        "stock": 90,
+        "category": "Kebutuhan Sehari-hari"
+    },
+    {
+        "name": "Kompos Taman",
+        "price": 50000,
+        "stock": 100,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Pembersih Ramah Lingkungan",
+        "price": 45000,
+        "stock": 110,
+        "category": "Kebersihan"
+    },
+    {
+        "name": "Kain Pembersih Bambu",
+        "price": 15000,
+        "stock": 200,
+        "category": "Kebersihan"
+    }
+]
