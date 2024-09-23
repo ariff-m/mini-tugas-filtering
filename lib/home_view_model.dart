@@ -11,6 +11,7 @@ class HomeViewModel extends ChangeNotifier {
   double maxPrice = double.infinity;
   double minStock = 0;
   double maxStock = double.infinity;
+  String? selectedCategory;
 
   List<ProductsModel> get filteredProducts => _filteredProducts;
 
@@ -48,17 +49,18 @@ class HomeViewModel extends ChangeNotifier {
           product.price >= minPrice && product.price <= maxPrice;
       final isStockInRange =
           product.stock >= minStock && product.stock <= maxStock;
-
-      return isPriceInRange && isStockInRange;
+      final isCategoryMatched = selectedCategory == null ||
+          product.category == categoryValues.map[selectedCategory];
+      return isPriceInRange && isStockInRange && isCategoryMatched;
     }).toList();
 
     notifyListeners();
+
+    resetFilters();
   }
 
   void filterByCategory(String category) {
-    _filteredProducts =
-        _products.where((product) => product.category == category).toList();
-    notifyListeners();
+    selectedCategory = category;
   }
 
   void resetFilters() {
@@ -66,6 +68,7 @@ class HomeViewModel extends ChangeNotifier {
     maxPrice = double.infinity;
     minStock = 0;
     maxStock = double.infinity;
+    selectedCategory = null;
     notifyListeners();
   }
 }
