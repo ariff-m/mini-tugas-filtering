@@ -23,6 +23,11 @@ class MyApp extends StatelessWidget {
         routes: {
           '/': (_) => const HomePage(),
         },
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+          useMaterial3: true,
+        ),
       ),
     );
   }

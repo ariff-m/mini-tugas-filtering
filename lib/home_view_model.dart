@@ -7,9 +7,9 @@ class HomeViewModel extends ChangeNotifier {
   List<ProductsModel> _products = [];
   List<ProductsModel> _filteredProducts = [];
 
-  double minPrice = 0;
+  int minPrice = 0;
   double maxPrice = double.infinity;
-  double minStock = 0;
+  int minStock = 0;
   double maxStock = double.infinity;
   String? selectedCategory;
 
@@ -27,7 +27,7 @@ class HomeViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  void setMinPrice(double value) {
+  void setMinPrice(int value) {
     minPrice = value;
   }
 
@@ -35,7 +35,7 @@ class HomeViewModel extends ChangeNotifier {
     maxPrice = value;
   }
 
-  void setMinStock(double value) {
+  void setMinStock(int value) {
     minStock = value;
   }
 
@@ -56,11 +56,11 @@ class HomeViewModel extends ChangeNotifier {
 
     notifyListeners();
 
-    resetFilters();
   }
 
   void filterByCategory(String category) {
     selectedCategory = category;
+    notifyListeners();
   }
 
   void resetFilters() {
@@ -69,6 +69,7 @@ class HomeViewModel extends ChangeNotifier {
     minStock = 0;
     maxStock = double.infinity;
     selectedCategory = null;
+    applyFilters();
     notifyListeners();
   }
 }
